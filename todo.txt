@@ -9,6 +9,7 @@ Required Features:
 
 Ideal Features:
 * Search for image
+* solve puzzle to slide images(suggestion)
 * Video
 * Random zoom in zoom out
 
