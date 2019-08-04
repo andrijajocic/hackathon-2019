@@ -4,12 +4,13 @@ HACKATHON 2019
 Overengineered Image Gallery
 
 Required Features:
-* Display images
+* Display images (no scrolling)
 * User authentication
 
 Ideal Features:
 * Search for image
 * Video
+* Random zoom in zoom out
 
 Stretch Features:
 * Google Drive integration (?)
