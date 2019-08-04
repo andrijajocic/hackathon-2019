@@ -16,5 +16,5 @@ Stretch Features:
 
 
 /* NOTE TO TEAM: 
-	All of these are examples to get us started. Please change, add, or 	remove anything on this list. Thanks!
+	All of these are examples to get us started. Please change, add, or 	remove anything on this list. Thanks!!
 */
