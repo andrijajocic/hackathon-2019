@@ -22,7 +22,7 @@ void MainWindow::on_btn_image_clicked()
         bool valid = image.load(filename);
         if (valid)
         {
-            image = image.scaledToWidth(ui->lbl_image->width(), Qt::SmoothTransformation);
+            image = image.scaled(ui->lbl_image->width(), ui->lbl_image->height(), Qt::KeepAspectRatio, Qt::SmoothTransformation);
             ui->lbl_image->setPixmap(QPixmap::fromImage(image));
         }
         else {
