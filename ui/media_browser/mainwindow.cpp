@@ -22,8 +22,8 @@ void MainWindow::on_btn_image_clicked()
         bool valid = image.load(filename);
         if (valid)
         {
-            image = image.scaled(ui->lbl_image->width(), ui->lbl_image->height(), Qt::KeepAspectRatio, Qt::SmoothTransformation);
-            ui->lbl_image->setPixmap(QPixmap::fromImage(image));
+            //image = image.scaled(ui->lbl_image->width(), ui->lbl_image->height(), Qt::KeepAspectRatio, Qt::SmoothTransformation);
+            ui->lbl_image->setPixmap(QPixmap::fromImage(image.scaled(ui->lbl_image->width(), ui->lbl_image->height(), Qt::KeepAspectRatio, Qt::SmoothTransformation)));
         }
         else {
             // Error Handling
